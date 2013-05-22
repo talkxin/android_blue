@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/myBlueTooth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <!--
+    <EditText
+        android:id="@+id/blueAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    -->
+
+    <Button
+        android:id="@+id/bbpc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="连接pc" />
+
+    <Button
+        android:id="@+id/bb23"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="连接小米2.3" />
+
+    <Button
+        android:id="@+id/bb40"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="连接小米4.0" />
+
+    <Button
+        android:id="@+id/bb40xoom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="连接xoom" />
+
+    <Button
+        android:id="@+id/cc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/endBule" />
+
+    <Button
+        android:id="@+id/lianjie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送移除配对指示" />
+
+    <Button
+        android:id="@+id/lianjieFile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送文件" />
+
+    <TextView
+        android:id="@+id/zhuangtai"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <ProgressBar
+        android:id="@+id/firstBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
